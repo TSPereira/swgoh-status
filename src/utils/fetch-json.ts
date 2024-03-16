@@ -1,5 +1,5 @@
 export default async function fetch_json(request: string): Promise<string> {
-    request = `https://corsproxy.io/?${request}`
+    request = `https://thingproxy.freeboard.io/fetch/${request}`
     // request = `https://proxy.cors.sh/${request}`
     let fetchRequest = new Request(request)
     fetchRequest.headers.append('X-Requested-With',"fetch")
