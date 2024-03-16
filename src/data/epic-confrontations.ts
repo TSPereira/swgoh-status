@@ -67,5 +67,17 @@ export default new FarmCategory(
             ],
             [],
         ),
+        new Farm(
+            'Bo-Katan (Mand\'alor)',
+            'event',
+            'light',
+            [
+                new FarmUnit('Kelleran Beq', 7, 13, 7),
+                new FarmUnit('Paz Vizsla', 7, 13, 7),
+                new FarmUnit('IG-12 & Grogu', 7, 13, 7),
+                new FarmUnit('The Mandalorian (Beskar Armor)', 7, 13, 7),
+            ],
+            [],
+        ),
     ]
 )
