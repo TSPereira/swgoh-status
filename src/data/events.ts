@@ -1,10 +1,22 @@
-import { Farm } from '../things/farm'
-import { FarmUnit, spacer } from '../things/farm-unit'
-import { FarmCategory } from '../things/farm-category'
+import {Farm} from '../things/farm'
+import {FarmUnit, spacer} from '../things/farm-unit'
+import {FarmCategory} from '../things/farm-category'
 
 export default new FarmCategory(
     'Hero Journey',
     [
+        new Farm(
+            'Jar Jar Binks',
+            'event',
+            'light',
+            [
+                new FarmUnit('Boss Nass', 7, 13, 5),
+                new FarmUnit('Captain Tarpals', 7, 13, 5),
+                new FarmUnit('Gungan Boomadier', 7, 13, 5),
+                new FarmUnit('Gungan Phalanx', 7, 13, 5),
+            ],
+            [],
+        ),
         new Farm(
             'Jedi Knight Cal Kestis',
             'event',
